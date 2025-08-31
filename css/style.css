@@ -58,12 +58,6 @@ body {
             color: #404bbf;
         }
 
-        /* -------------------------FOOTER-------------------- */
-
-        .page-footer{
-            background-color: #2e2f42;
-        }
-
         /* -------------------------hero-------------------- */
 
                 .hero {
@@ -98,6 +92,7 @@ body {
                 /* -------------------------features-------------------- */
 
                 .features {
+                    background-color: #fff;
                 }
                 
                 .features-list {}
@@ -105,7 +100,8 @@ body {
                 .features-item {}
                 
                 .features-subtitle {
-                    font-weight: 500;
+                    font-weig
+                    ht: 500;
                         font-size: 20px;
                         line-height: 1.2;
                         letter-spacing: 0.02em;
@@ -117,4 +113,49 @@ body {
                         line-height: 1.5;
                         letter-spacing: 0.02em;
                         color: #434455;
+                }
+
+                /* -------------------------team-------------------- */
+
+                .team {
+                    background-color: #f4f4fd;
+                }
+                
+                .section-title {
+                    font-weight: 700;
+                        font-size: 36px;
+                        line-height: 1.11111;
+                        letter-spacing: 0.02em;
+                        text-align: center;
+                        color: #2e2f42;
+                }
+                
+                .team-list {
+
+                }
+                
+                .team-item {}
+                
+                .team-subtitle {
+                    font-weight: 500;
+                        font-size: 20px;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;
+                        text-align: center;
+                        color: #2e2f42;
+                }
+                
+                .team-text {
+                    font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;
+                        text-align: center;
+                        color: #434455;
+                }
+
+
+                /* -------------------------FOOTER-------------------- */
+                
+                .page-footer {
+                     background-color: #2e2f42;
                 }
