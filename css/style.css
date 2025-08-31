@@ -135,8 +135,9 @@ body {
                 }
                 
                 .team-item {
-                    text-align: center;
-                }
+                    text-align: center; 
+                    background-color: #ffffff;
+                    }
 
 
                 /* -------------------------FOOTER-------------------- */
