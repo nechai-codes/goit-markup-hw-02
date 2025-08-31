@@ -12,6 +12,8 @@ body {
     text-decoration: none;
     }
 
+    /* -------------------------HEADER-------------------- */
+
     .logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -56,8 +58,63 @@ body {
             color: #404bbf;
         }
 
+        /* -------------------------FOOTER-------------------- */
+
         .page-footer{
             background-color: #2e2f42;
         }
 
+        /* -------------------------hero-------------------- */
+
+                .hero {
+                    background-color: #2e2f42;
+                }
         
+                .hero-title {
+                    font-weight: 700;
+                        font-size: 56px;
+                        line-height: 1.07143;
+                        letter-spacing: 0.02em;
+                        text-align: center;
+                        color: #fff;
+                }
+
+                .hero-btn {
+                    font-family: inherit;
+                    background-color: #4d5ae5;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.04em;
+                    color: #fff;
+                 }
+
+                .hero-btn:hover,
+                .hero-btn:focus {
+                    background-color: #404bbf;
+                }
+
+                /* -------------------------features-------------------- */
+                
+                .features {
+                    background-color: #fff;
+                }
+                
+                .features-list {}
+                
+                .features-item {}
+                
+                .features-subtitle {
+                    font-weight: 500;
+                        font-size: 20px;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;
+                        color: #2e2f42;
+                }
+                
+                .features-text {
+                    font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;
+                        color: #434455;
+                }
